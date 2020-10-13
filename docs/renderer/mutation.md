@@ -278,4 +278,4 @@ for (let i = 0; i < updatePayload.length; i += 2) {
 
 ## 总结
 
-从这节我们学到，`mutation阶段`会遍历`effectList`，依次执行`commitMutationEffects`。该方法的主要工作为“根据`effectTag`调用不同的处理函数处理`Fiber`。
+从这节我们学到，`mutation阶段`会遍历`effectList`，依次执行`commitMutationEffects`。该方法的主要工作为“根据`effectTag`调用不同的处理函数处理`Fiber`”。
